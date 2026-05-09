@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
 import HeroBanner from './components/HeroBanner';
+import TrendingPlants from './components/TrendingPlants';
 import bgImage from './assests/Bg_image.png'
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         
       <Navbar/>
       <HeroBanner/>
-        
+      <TrendingPlants/>
     </div>
   );
 }
