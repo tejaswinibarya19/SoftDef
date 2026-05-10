@@ -21,7 +21,7 @@ const trendy = [
 ]
 export default function TrendingPlants() {
   return (
-    <div className='w-full mt-16 px-8'>
+    <div className='w-full mt-16 px-8 pb-24'>
         {/* Heading */}
         <h1 className='text-center text-white font-semibold text-4xl mb-10'>Our Trendy plants</h1>
 
